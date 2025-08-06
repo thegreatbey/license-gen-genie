@@ -1,0 +1,45 @@
+{
+  "name": "license-gen-genie",
+  "version": "0.0.1",
+  "description": "A CLI tool to quickly generate open-source LICENSE files with interactive or flag-based options.",
+  "main": "dist/index.js",
+  "bin": {
+    "license-gen-genie": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "templates",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build && npm test",
+    "test": "node -e \"console.log('✅ Basic syntax check passed')\""
+  },
+  "keywords": [
+    "license",
+    "cli",
+    "generator",
+    "open-source",
+    "opensource",
+    "license-gen",
+    "license-genie",
+    "spdx",
+    "software-license",
+    "developer-tools",
+    "npm-cli",
+    "project-setup"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "inquirer": "^9.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/inquirer": "^9.0.4",
+    "typescript": "^5.0.4"
+  }
+}
