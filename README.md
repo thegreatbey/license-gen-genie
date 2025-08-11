@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./license-gen-genie.png" alt="license-gen-genie logo" width="140"/>
+  <img src="license-gen-genie.png" alt="license-gen-genie logo" width="140"/>
 </p>
 
 <h1 align="center">license-gen-genie</h1>
